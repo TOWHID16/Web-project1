@@ -62,7 +62,7 @@ html,body{
 #content{
     height:100%;
     width: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
     position: relative;
    
 }
@@ -154,4 +154,12 @@ html,body{
     to{
         transform: translatex(-100%);
     }
+}
+#alphabet{
+    height: 10vh;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
