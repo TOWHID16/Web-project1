@@ -287,12 +287,28 @@ html,body{
 #page2part2{
     height: 100%;
     width: 55%;
-    background-color: rgb(54, 42, 165);
+    /* background-color: rgb(54, 42, 165); */
 }
 #page2part2 img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    
 
+}
+#page3{
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    margin: 20px;
+    padding: 1vw 6.2vw;
+}
+#page3part1{
+    height: 100%;
+    width: 100%;
+}
+#page3part1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 10%;
 }
