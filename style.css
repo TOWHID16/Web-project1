@@ -255,4 +255,44 @@ html,body{
 #txt h1{
     font-family: monument;
     font-size: 1.8vw;
+    text-transform: uppercase;
+}
+#page2{
+    height: 80%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+}
+#page2part1{
+    height: 100%;
+    width: 44%;
+    /* background-color: aqua; */
+   
+}
+#page2part1 img{
+    height: 45%;
+    width: 50%;
+    border-radius: 50%;
+    margin: 6.3vw 9vw;
+   
+}
+#page2part1 h1{
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding-left: 70px;
+}
+#page2part2{
+    height: 100%;
+    width: 55%;
+    background-color: rgb(54, 42, 165);
+}
+#page2part2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+
 }
